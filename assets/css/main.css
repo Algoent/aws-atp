@@ -1243,6 +1243,7 @@ section {
 .data-block .contact-box .bullets{
   padding: 0 20px;
   font-size: 18px;
+  width: 100%;
 }
 .data-block .contact-box .bullets ul {
   list-style: none;
@@ -1277,10 +1278,24 @@ section {
   .data-block .contact-box .icon-box{
     margin-bottom: 20px ;
   }
+  .data-block .contact-box .bullets span{
+    font-size: 19px;
+  }
+  .data-block .contact-box .bullets{
+    padding: 0 10px;
+    font-size: 16px;
+  }
 }
 @media (max-width: 545px) {
   .data-block .contact-box .bullets span{
     font-size: 18px;
+  }
+  .data-block .contact-box .bullets span{
+    font-size: 18px;
+  }
+  .data-block .contact-box .bullets{
+    padding: 0 10px;
+    font-size: 15px;
   }
 }
 
